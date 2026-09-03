@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>RPG Manager - Personajes</title>
+</head>
+<body>
+    <h1>Lista de Personajes RPG</h1>
+    <p>¡Bienvenido a la arena!</p>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Clase</th>
+                <th>Nivel</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Aragorn</td>
+                <td>Guerrero</td>
+                <td>10</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Crear Nuevo Personaje</h2>
+    <form action="/personajes" method="POST">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div>
+            <label for="clase">Clase:</label>
+            <input type="text" id="clase" name="clase" required>
+        </div>
+
+        <div>
+            <label for="nivel">Nivel:</label>
+            <input type="number" id="nivel" name="nivel" required>
+        </div>
+
+        <button type="submit">Guardar Personaje</button>
+    </form>
+</body>
+</html>
