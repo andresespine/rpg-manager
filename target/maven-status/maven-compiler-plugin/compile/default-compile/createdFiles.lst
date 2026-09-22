@@ -1,3 +1,4 @@
+edu\udistrital\rpgmanager\servicio\PersonajeServicio.class
 edu\udistrital\rpgmanager\controlador\PersonajeController.class
 edu\udistrital\rpgmanager\modelo\PersonajeRepository.class
 edu\udistrital\rpgmanager\modelo\Personaje.class
